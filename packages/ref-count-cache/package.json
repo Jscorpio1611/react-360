@@ -15,9 +15,9 @@
   ],
   "devDependencies": {
     "@babel/cli": "7.1.2",
-    "@babel/core": "7.1.2",
+    "@babel/core": "7.25.2",
     "@babel/plugin-proposal-class-properties": "7.2.1",
-    "@babel/plugin-transform-flow-strip-types": "7.0.0"
+    "@babel/plugin-transform-flow-strip-types": "7.25.2"
   },
   "scripts": {
     "build": "babel src --out-dir dist --ignore \"src/**/__tests__/*.js\" --plugins=@babel/plugin-transform-flow-strip-types,@babel/plugin-proposal-class-properties"
